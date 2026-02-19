@@ -8,22 +8,13 @@
 
 
 
-This assignment aims to provide hands-on experience with **Apache Airflow** for orchestrating data pipelines. Students will learn to design, implement, and monitor workflows that automate ETL (Extract, Transform, Load) tasks.
+This assignment aims to provide hands-on experience with **Apache Airflow** for orchestrating data pipelines.
 
 **Goal:** Build and operate a daily ETL pipeline that extracts a CSV from S3, validates availability, transforms it with pandas, conditionally branches on success/failure, creates a target table in Postgres, loads transformed rows, and posts a final notification.
 
-**What you’ll practice:**  
+
+**Components Used:**  
 TaskFlow API, Sensors, Branching, XCom, SQL operators, Hooks (S3, Postgres), dependency management, idempotent loads.
-
-**Learning Outcomes**
-
-By the end of this assignment, students should be able to:
-
-* Understand the architecture and core components of Apache Airflow (DAGs, Operators, Tasks, Scheduler, Web UI).
-* Design and implement Directed Acyclic Graphs (DAGs) to automate workflows.
-* Integrate Airflow with data sources.
-* Use hooks, sensors, custom operators, and XCom for data passing between tasks.
-* Schedule, monitor, and debug Airflow jobs.
 
 ---
 
@@ -136,5 +127,6 @@ SELECT * FROM public.walmart_sales_transformed LIMIT 10;
 ```
 
 ---
+
 
 
