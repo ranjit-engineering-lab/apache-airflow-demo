@@ -4,11 +4,7 @@
 > IMPORTANT INFORMATION:
 - [Docker Set up Instructions](./assets/setup.md)
 - [Instructions to Build Dag and Tasks](./assets/Build_Instructions_DAG_Tasks.md)
-- [Video Demo Instructions](./assets/SUBMISSION.md)
 
-
-
-This assignment aims to provide hands-on experience with **Apache Airflow** for orchestrating data pipelines.
 
 **Goal:** Build and operate a daily ETL pipeline that extracts a CSV from S3, validates availability, transforms it with pandas, conditionally branches on success/failure, creates a target table in Postgres, loads transformed rows, and posts a final notification.
 
@@ -127,6 +123,7 @@ SELECT * FROM public.walmart_sales_transformed LIMIT 10;
 ```
 
 ---
+
 
 
 
