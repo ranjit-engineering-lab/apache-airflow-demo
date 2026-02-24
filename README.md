@@ -98,7 +98,7 @@ etl_pipeline_dag.py
 
 ---
 
-## 6) Running the Assignment
+## 6) Running the Pipeline
 
 1. Start Airflow (webserver + scheduler). [Refer to the Docker setup instructions for commands.](./assets/setup.md)
 2. Open the Airflow UI.
@@ -123,6 +123,7 @@ SELECT * FROM public.walmart_sales_transformed LIMIT 10;
 ```
 
 ---
+
 
 
 
